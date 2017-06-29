@@ -5,12 +5,10 @@ function Mostar()
 	var dato = 0;
    //dato = "octavio";
   
-//dato = document.getElementById('elNombre').value;
+dato = document.getElementById('elNombre').value;
 //esto me devuelve lo que coloco en el texto
 
-document.getElementById ("elNombre").value = "natalia";
-
-  //alert (dato);
+alert (dato);
 }
 
 

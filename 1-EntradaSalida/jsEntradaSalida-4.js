@@ -5,20 +5,15 @@
 function Mostar()
 {
 	
-	function Mostar()
-{
-	
+var dato = 0;
 
-	var nombre = prompt("nombre");
+	var nombre = prompt("Please enter your name", "su nombre");
 
-	//var nombre = prompt("Please enter your name", "natalia natalia");
+	//dato = document.getElementById('elNombre').value;
 
-   //dato = "octavio";
-  
-//dato = document.getElementById('elNombre').value;
-//esto me devuelve lo que coloco en el texto
+	//document.getElementById("elNombre").value = "nombre";
 
-    document.getElementById("elNombre").value = nombre;
+ alert (dato);
 
 }
 
