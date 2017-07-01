@@ -37,9 +37,9 @@ var resultado
 
 
 dato1 = document.getElementById('numeroUno').value;
-dato1= parseInt(dato1);
+
 dato2 = document.getElementById('numeroDos').value;
-dato2= parseInt(dato2);
+
 
 
 
@@ -63,9 +63,9 @@ var resultado
 
 
 dato1 = document.getElementById('numeroUno').value;
-dato1= parseInt(dato1);
+
 dato2 = document.getElementById('numeroDos').value;
-dato2= parseInt(dato2);
+
 
 
 
@@ -89,9 +89,9 @@ var resultado
 
 
 dato1 = document.getElementById('numeroUno').value;
-dato1= parseInt(dato1);
+
 dato2 = document.getElementById('numeroDos').value;
-dato2= parseInt(dato2);
+
 
 
 
