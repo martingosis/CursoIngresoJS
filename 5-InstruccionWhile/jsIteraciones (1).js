@@ -1,5 +1,10 @@
 function Mostrar()
 {
+
+
+
+
+
 	alert('iteración while');
 
 
