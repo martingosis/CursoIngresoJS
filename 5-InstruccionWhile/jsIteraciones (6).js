@@ -9,16 +9,17 @@ function Mostrar()
 	while (contador<5)
    { 
 
-	 		contador= contador+1;
-	 		numero = prompt("ingrese numero "+ contador +" :");
-	 		numero = perseInt(numero);
+			numero = prompt("ingrese numero ");
+	 	    numero = parseInt(numero);
+	 	    contador = contador+1;
 	 		acumulador = acumulador + numero;
 
 	 	  
 	}
 
 
-	document.getElementById('suma').value=acumulador;
+	
 	document.getElementById('promedio').value=acumulador/5;
+	document.getElementById('suma').value=acumulador;
 
 }//FIN DE LA FUNCIÓN
