@@ -10,7 +10,7 @@ estadoCivil = document.getElementById('estadoCivil').value;
 
 if ( edad < 18)
 {
-alert ("que comiences bien el año!!!");
+alert ("Es muy pequeño para NO ser soltero");
 
 }
 	
