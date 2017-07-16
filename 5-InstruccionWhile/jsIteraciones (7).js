@@ -20,7 +20,7 @@ function Mostrar()
 	    acumulador = acumulador + nota;
 	    
         
-        //if (contador==1) {
+       
 
         if(nota>notamayor)  { 
 
@@ -32,19 +32,7 @@ function Mostrar()
 			notamenor=nota;
 		}	
 
-		///if (contador==1) {
 		
-		//}
-
-		//if (notamayor<numero) {
-
-		//}
-
-		//if (notamenor>numero) {
-
-
-		//}
-
 
 	  
 	}
