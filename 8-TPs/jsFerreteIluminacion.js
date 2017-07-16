@@ -11,32 +11,46 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 function CalcularPrecio () 
 {
  
- var costo;
- var cantidad;
- var marca;
- var descuento;
- var preciofinal;
- var preciofinalcondescuento50;
- var preciofinalcondescuento25;
-
-costo=35;
 
 
-marca=document.getElementById('Marca').value;
-alert(marca);
-
-cantidad=document.getElementById('Cantidad').value;
-alert(cantidad);
-
-preciofinal=cantidad*costo
+var marca=document.getElementById('Marca').value;
 
 
-if(cantidad>5){
+var cantidad=document.getElementById('Cantidad').value;
 
-	preciofinalcondescuento50 = preciofinal * 50 / 100;
-	
- 	
- 	}
+var precio_final=document.getElementById('precioDescuento');
+
+var aux = cantidad*35;
+
+
+if(cantidad>=6)
+	precio_final.value = aux /2;
+else if(cantidad == 5 && marca=="ArgentinaLuz")
+	precio_final.value = aux * ( 1 - 0.4 );
+else if(cantidad == 5 )
+  	precio_final.value = aux * ( 1 - 0.3 );
+else if(cantidad == 4 && (marca=="ArgentinaLuz" || marca=="FelipeLamparas"))
+	precio_final.value = aux * ( 1 - 0.25 );
+else if(cantidad == 4 )
+  	precio_final.value = aux * ( 1 - 0.2 );
+else if(cantidad == 3 && marca=="ArgentinaLuz")
+	precio_final.value = aux * ( 1 - 0.15 );
+else if(cantidad == 3 && marca=="FelipeLamparas")
+  	precio_final.value = aux * ( 1 - 0.1 );
+else if(cantidad == 3 )
+  	precio_final.value = aux * ( 1 - 0.05 );
+else
+	precio_final.value = aux;
+
+
+if(precio_final.value>200)
+{
+  alert("Usted pago " + (precio_final.value * 0.1) + " de IIBB");
+  precio_final.value=precio_final.value * ( 1 + 0.1 );
+
+}
+
+}
 
 
 
