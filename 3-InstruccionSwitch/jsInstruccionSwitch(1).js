@@ -20,13 +20,17 @@ alert ("que comiences bien el año!!!");
         
         break;
     
-    case 2:
-        day = "Tuesday";
+    case "Julio":
+
+        alert ("se vienen las vacaciones!!!")
+
         break;
-    case 3:
-        day = "Wednesday";
-        break;
-   
+
+    case "Diciembre":
+
+    alert ("Felices fiesta!!!")
+    
+    break
 
 }
 
