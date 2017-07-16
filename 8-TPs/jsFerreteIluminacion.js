@@ -15,10 +15,12 @@ function CalcularPrecio ()
  var cantidad;
  var marca;
  var descuento;
- var preciofinal
- var preciofinalcondescuento
+ var preciofinal;
+ var preciofinalcondescuento50;
+ var preciofinalcondescuento25;
 
 costo=35;
+
 
 marca=document.getElementById('Marca').value;
 alert(marca);
@@ -27,20 +29,25 @@ cantidad=document.getElementById('Cantidad').value;
 alert(cantidad);
 
 preciofinal=cantidad*costo
-preciofinal*descuento
 
-if(descuento=0.5)
-{
 
-cantidad+5;
+if(cantidad>5){
 
-preciofinal=cantidad*costo
-preciofinal*descuento
-}
-
-document.getElementById('precioDescuento').value=preciofinal
+	preciofinalcondescuento50 = preciofinal * 50 / 100;
+	
+ 	
+ 	}
 
 
 
 
-}
+
+
+
+
+
+
+
+	
+
+
