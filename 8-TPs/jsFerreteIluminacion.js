@@ -25,6 +25,7 @@ var aux = cantidad*35;
 
 if(cantidad>=6)
 	precio_final.value = aux /2;
+
 else if(cantidad == 5 && marca=="ArgentinaLuz")
 	precio_final.value = aux * ( 1 - 0.4 );
 else if(cantidad == 5 )
@@ -41,7 +42,7 @@ else if(cantidad == 3 )
   	precio_final.value = aux * ( 1 - 0.05 );
 else
 	precio_final.value = aux;
-
+  
 
 if(precio_final.value>200)
 {
