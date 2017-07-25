@@ -10,7 +10,7 @@ var resultado = 0;
 
 
 dato1 = document.getElementById('sueldo').value;
-dato1= parseInt(dato1);
+dato1 = parseInt(dato1);
 
 resultado = dato1 *10 / 100;
 
