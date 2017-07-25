@@ -3,45 +3,27 @@ function Mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
-	var nota=0;
-	var notamayor=0;
-	var notamenor;
+	var numero;
+	var respuesta;
+	var pregunta;
 
-	while (contador<3) 
-	{	
 
-	    console.log("vuelta" + contador);
 
-	   	
-	    nota=prompt("ingrese nota");
-	    nota = parseInt(nota);
-	    contador = contador+1;
-	    acumulador = acumulador + nota;
-	    
-        
-       
+	while (respuesta == "si"){
 
-        if(nota>notamayor)  { 
+	numero = prompt("ingrese numero ");
+	numero = parseInt(numero);
+	contador = contador+1;
+	pregunta = contador
+	acumulador = acumulador + numero;
+	
+	pregunta = prompt ("desea ingresar numero?");
 
-	    		notamayor=nota;
-			}  
-
-		if (nota<notamenor) {
-
-			notamenor=nota;
-		}	
-
-		
-
-	  
 	}
 
-	console.log("notamayor " + notamayor);
-	console.log("notamenor " + notamenor);
+   	
+  	document.getElementById('suma').value=acumulador;
+	document.getElementById('promedio').value=acumulador/contador;
 
-
-document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/contador;
 
 }//FIN DE LA FUNCIÓN

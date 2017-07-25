@@ -13,15 +13,12 @@ function Mostrar()
 	while (contador<3) 
 	{	
 
+  
+ 
+
 	    
         
      }
-
-
-
-
-
-
 
 
 
