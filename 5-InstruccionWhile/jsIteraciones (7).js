@@ -4,8 +4,8 @@ function Mostrar()
 	var contador=0;
 	var acumulador=0;
 	var numero;
-	var respuesta;
-	var pregunta;
+	var respuesta="si";
+	
 
 
 
@@ -14,12 +14,13 @@ function Mostrar()
 	numero = prompt("ingrese numero ");
 	numero = parseInt(numero);
 	contador = contador+1;
-	pregunta = contador
 	acumulador = acumulador + numero;
 	
-	pregunta = prompt ("desea ingresar numero?");
+	respuesta = prompt ("desea ingresar un numero mas?");
 
 	}
+
+
 
    	
   	document.getElementById('suma').value=acumulador;
