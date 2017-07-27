@@ -12,6 +12,9 @@ function Mostrar()
 
 	numero = prompt("ingrese numero ");
 	numero = parseInt(numero);
+	if (numero >0){
+		
+	}
 	contador = contador+1;
 	positivo = acumulador + numero;
 	
